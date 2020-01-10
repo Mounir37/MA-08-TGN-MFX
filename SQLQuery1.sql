@@ -45,8 +45,8 @@ create table developers (
 	totalGames int
 )
 
-create table typesPro (
-	typesProID int NOT NULL PRIMARY KEY,
+create table types_providers (
+	types_providersID int NOT NULL PRIMARY KEY,
 	name varchar(45)
 )
 
@@ -101,5 +101,5 @@ create table providers (
 	name varchar(45),
 	creationDate date,
 	nbGames int,
-	typesPro_id int FOREIGN KEY REFERENCES typesPro(typesProID)
+	types_providers_id int FOREIGN KEY REFERENCES types_providers(types_providersID)
 )
