@@ -46,7 +46,8 @@ create table customers (
 create table developments (
 	developmentsID int IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	cost int,
-	duration datetime
+	startDevelopment date,
+	endDevelopment date
 )
 
 ----Creation of the table types_providers with name
@@ -82,8 +83,8 @@ create table payments (
 create table orders (
 	ordersID int IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	number int UNIQUE,
-	description varchar(100),
-	address varchar(45),
+	description varchar(255),
+	address varchar(80),
 	customers_id int FOREIGN KEY REFERENCES customers(customersID)
 )
 
