@@ -71,13 +71,14 @@ create table reductions (
 	customers_id int FOREIGN KEY REFERENCES customers(customersID)
 )
 
---Creation of the table payments with type, foreign key to 
+--Creation of the table payments with type, foreign key to customersID
 create table payments (
 	paymentsID int NOT NULL PRIMARY KEY,
 	type varchar(45),
 	customers_id int FOREIGN KEY REFERENCES customers(customersID)
 )
 
+--Creation of the table orders with number, description, address, foreign key to customersID
 create table orders (
 	ordersID int NOT NULL PRIMARY KEY,
 	number int,
@@ -86,6 +87,7 @@ create table orders (
 	customers_id int FOREIGN KEY REFERENCES customers(customersID)
 )
 
+--Creation of the table games with name, price, releaseDate, foreign key to developmentsID
 create table games (
 	gamesID int NOT NULL PRIMARY KEY,
 	name varchar(45),
@@ -94,16 +96,19 @@ create table games (
 	developments_id int FOREIGN KEY REFERENCES developments(developmentsID)
 )
 
-create table accessories_has_customers (
+--Creation of the table acquire with foreign key to accessoriesID, foreign key to customersID
+create table acquire (
 	accessories_id int FOREIGN KEY REFERENCES accessories(accessoriesID),
 	customers_id int FOREIGN KEY REFERENCES customers(customersID)
 )
 
-create table customers_has_games (
+--Creation of the table buy with foreign key to customersID, foreign key to gamesID
+create table buy (
 	customers_id int FOREIGN KEY REFERENCES customers(customersID),
 	games_id int FOREIGN KEY REFERENCES games(gamesID)
 )
 
+--Creation of the table providers with name, creationDate, nbGames, foreign key to types_providersID
 create table providers (
 	providersID int NOT NULL PRIMARY KEY,
 	name varchar(45),
@@ -112,7 +117,15 @@ create table providers (
 	types_providers_id int FOREIGN KEY REFERENCES types_providers(types_providersID)
 )
 
-create table providers_has_games (
+--Creation of the table develop with foreign key to providersID, foreign key to gamesID
+create table develop (
 	providers_id int FOREIGN KEY REFERENCES providers(providersID),
 	games_id int FOREIGN KEY REFERENCES games(gamesID)
+)
+
+
+--Creation of the table use with foreign key to gamesID, foreign key to platformsID
+create table need (
+	games_id int FOREIGN KEY REFERENCES games(gamesID),
+	platforms_id int FOREIGN KEY REFERENCES platforms(platformsID)
 )
