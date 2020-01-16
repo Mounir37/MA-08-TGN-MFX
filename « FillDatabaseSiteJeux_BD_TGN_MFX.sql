@@ -34,31 +34,31 @@ INSERT INTO customers([lastname],[firstname],[nickname],[mail],[phoneNumber]) VA
 INSERT INTO customers([lastname],[firstname],[nickname],[mail],[phoneNumber]) VALUES('Cantrell','Alea','ultricies adipiscing,','ultrices.Duis.volutpat@tempor.com','074 281 68 32'),('Roach','Madeline','adipiscing','gravida@arcuVestibulum.net','074 379 66 99'),('Chambers','Kelly','amet','est@Quisquepurussapien.net','071 623 13 28'),('Chase','Sawyer','faucibus.','In.tincidunt@semegestasblandit.ca','074 814 35 65'),('Walter','Lewis','montes, nascetur','condimentum@enim.ca','075 152 86 61'),('Cannon','Merrill','metus','Donec@bibendumsedest.com','079 796 84 96'),('Cline','Amber','senectus et','enim.Sed@vehiculaPellentesquetincidunt.com','075 653 94 44'),('Raymond','Plato','eleifend,','arcu.Sed.et@vel.net','076 275 37 88'),('Reed','Murphy','nec, malesuada','enim.consequat.purus@semper.edu','072 477 72 44'),('Orr','Justine','malesuada fringilla','eu.eleifend@velturpis.net','076 261 19 25');
 
 --Insertion of 150 data in the table games
-
+--MOUNIR
 
 --Insertion of 150 data in the table developments
 
 
 --Insertion of 100 data in the table orders
-
+--MOUNIR
 
 --Insertion of 100 data in the table payments
 
 
 --Insertion of 100 data in the table providers
-
+--MOUNIR
 
 --Insertion of 50 data in the table accessories
 
 
 --Insertion of 28 data in the table platforms
-
+--MOUNIR
 
 --Insertion of 20 data in the table reductions
 
 
 --Insertion of 2 data in the table types_providers
-
+--MOUNIR
 
 
 
