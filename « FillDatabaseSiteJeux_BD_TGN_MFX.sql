@@ -35,7 +35,6 @@ INSERT INTO customers([lastname],[firstname],[nickname],[mail],[phoneNumber]) VA
 
 --Insertion of 150 data in the table games
 
-
 --Insertion of 150 data in the table developments
 INSERT INTO developments([cost],[startDevelopment],[endDevelopment]) VALUES(8635338,'07.24.2014','08.22.2018'),(3987483,'04.09.2010','01.14.2016'),(289554,'02.26.2011','04.18.2018'),(2781137,'01.04.2014','07.20.2019'),(8298745,'01.04.2012','05.28.2017'),(1819575,'01.25.2014','04.03.2015'),(8665035,'10.20.2011','02.21.2015'),(2576647,'11.06.2011','07.29.2016'),(6513954,'03.31.2011','06.14.2016'),(6700361,'02.13.2011','10.05.2019');
 INSERT INTO developments([cost],[startDevelopment],[endDevelopment]) VALUES(7139844,'04.17.2012','04.30.2017'),(329318,'01.24.2014','04.09.2017'),(6778783,'11.05.2014','07.14.2015'),(4020558,'08.27.2014','09.19.2019'),(5938727,'01.23.2012','03.01.2017'),(5537569,'08.05.2013','08.03.2018'),(7194286,'06.01.2014','12.22.2017'),(7172494,'01.24.2014','05.10.2016'),(8739290,'09.13.2013','06.13.2015'),(3857778,'06.09.2012','08.20.2018');
@@ -102,7 +101,3 @@ INSERT INTO reductions([name],[pourcentage],[deadline]) VALUES('auctor quis,',21
 
 --Insertion of 2 data in the table types_providers
 INSERT INTO types_providers([name]) VALUES('Développeur'),('Éditeur');
-
-
-
-
