@@ -35,11 +35,11 @@ create table accessories (
 --Creation of the table customers with lastname, firstname, nickname, mail, phoneNumber
 create table customers (
 	customersID int IDENTITY(1,1) NOT NULL PRIMARY KEY,
-	lastname varchar(45),
-	firstname varchar(45),
-	nickname varchar(30) UNIQUE,
-	mail varchar(80) UNIQUE,
-	phoneNumber varchar(10) UNIQUE
+	lastname varchar(65),
+	firstname varchar(65),
+	nickname varchar(50) UNIQUE,
+	mail varchar(100) UNIQUE,
+	phoneNumber varchar(20) UNIQUE
 )
 
 --Creation of the table develpments with cost, duration
