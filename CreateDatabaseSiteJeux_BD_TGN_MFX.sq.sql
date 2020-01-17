@@ -1,7 +1,8 @@
---Author : Thomas Grossmann / Mounir Fiaux
---Database : SiteJeux_BD_TGN_MFX
---Date : 15.01.2020
-
+/*
+	Author : Thomas Grossmann / Mounir Fiaux / generatedata.com
+	Database : SiteJeux_BD_TGN_MFX
+	Date : 17.01.2020
+*/
 use master
 go
 
