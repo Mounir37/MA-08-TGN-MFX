@@ -39,7 +39,7 @@ create table customers (
 	firstname varchar(45),
 	nickname varchar(30) UNIQUE,
 	mail varchar(80) UNIQUE,
-	phoneNumber int UNIQUE
+	phoneNumber varchar(10) UNIQUE
 )
 
 --Creation of the table develpments with cost, duration
