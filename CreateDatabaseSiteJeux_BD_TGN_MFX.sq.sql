@@ -100,8 +100,8 @@ create table games (
 
 --Creation of the table acquire with foreign key to accessoriesID, foreign key to customersID
 create table acquire (
-	accessories_id int FOREIGN KEY REFERENCES accessories(accessoriesID),
-	customers_id int FOREIGN KEY REFERENCES customers(customersID)
+	customers_id int FOREIGN KEY REFERENCES customers(customersID),
+	accessories_id int FOREIGN KEY REFERENCES accessories(accessoriesID)
 )
 
 --Creation of the table buy with foreign key to customersID, foreign key to gamesID

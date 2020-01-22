@@ -125,5 +125,40 @@ INSERT INTO reductions([name],[pourcentage],[deadline]) VALUES('auctor quis,',21
 --Insertion of 2 data in the table types_providers
 INSERT INTO types_providers([name]) VALUES('Développeur'),('Éditeur');
 
+--Insertion of foreign key in the table acquire
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(1,45),(2,40),(3,49),(4,22),(5,13),(6,42),(7,35),(8,22),(9,33),(10,17);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(11,47),(12,27),(13,4),(14,45),(15,35),(16,2),(17,39),(18,45),(19,29),(20,42);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(21,10),(22,1),(23,10),(24,49),(25,46),(26,17),(27,45),(28,46),(29,20),(30,35);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(31,13),(32,26),(33,5),(34,18),(35,3),(36,12),(37,7),(38,18),(39,22),(40,35);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(41,16),(42,18),(43,7),(44,38),(45,21),(46,24),(47,4),(48,42),(49,36),(50,19);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(51,42),(52,43),(53,17),(54,8),(55,8),(56,8),(57,40),(58,36),(59,17),(60,19);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(61,27),(62,16),(63,13),(64,14),(65,16),(66,14),(67,29),(68,6),(69,14),(70,4);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(71,34),(72,4),(73,15),(74,4),(75,12),(76,5),(77,40),(78,17),(79,4),(80,42);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(81,7),(82,7),(83,45),(84,39),(85,26),(86,25),(87,9),(88,34),(89,43),(90,21);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(91,40),(92,34),(93,37),(94,14),(95,44),(96,7),(97,27),(98,16),(99,10),(100,12);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(101,6),(102,44),(103,1),(104,18),(105,8),(106,43),(107,13),(108,29),(109,5),(110,44);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(111,11),(112,13),(113,6),(114,16),(115,45),(116,42),(117,17),(118,32),(119,12),(120,20);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(121,30),(122,30),(123,6),(124,30),(125,9),(126,20),(127,21),(128,32),(129,18),(130,43);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(131,28),(132,30),(133,1),(134,3),(135,49),(136,11),(137,41),(138,16),(139,13),(140,40);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(141,50),(142,45),(143,42),(144,13),(145,11),(146,36),(147,16),(148,6),(149,33),(150,42);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(151,35),(152,30),(153,39),(154,31),(155,20),(156,13),(157,44),(158,39),(159,19),(160,35);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(161,46),(162,40),(163,14),(164,3),(165,13),(166,18),(167,17),(168,37),(169,3),(170,19);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(171,23),(172,32),(173,12),(174,48),(175,47),(176,32),(177,34),(178,49),(179,39),(180,45);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(181,29),(182,2),(183,18),(184,35),(185,15),(186,47),(187,41),(188,21),(189,5),(190,8);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(191,21),(192,45),(193,38),(194,34),(195,9),(196,18),(197,3),(198,39),(199,40),(200,6);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(201,45),(202,39),(203,8),(204,1),(205,28),(206,5),(207,48),(208,46),(209,43),(210,28);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(211,44),(212,42),(213,42),(214,23),(215,16),(216,45),(217,30),(218,17),(219,24),(220,17);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(221,22),(222,8),(223,41),(224,26),(225,15),(226,17),(227,18),(228,43),(229,15),(230,28);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(231,28),(232,36),(233,31),(234,40),(235,45),(236,6),(237,25),(238,39),(239,14),(240,9);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(241,16),(242,3),(243,12),(244,33),(245,46),(246,27),(247,29),(248,17),(249,33),(250,44);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(251,38),(252,15),(253,25),(254,43),(255,10),(256,30),(257,40),(258,9),(259,37),(260,38);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(261,36),(262,29),(263,3),(264,32),(265,36),(266,6),(267,42),(268,33),(269,16),(270,12);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(271,7),(272,22),(273,7),(274,38),(275,13),(276,50),(277,8),(278,14),(279,21),(280,32);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(281,23),(282,14),(283,36),(284,17),(285,30),(286,21),(287,43),(288,11),(289,4),(290,35);
+INSERT INTO acquire([customers_id],[accessories_id]) VALUES(291,15),(292,35),(293,35),(294,34),(295,14),(296,50),(297,1),(298,27),(299,5),(300,9);
 
+--Insertion of foerign key in the table buy
+
+
+--
 --ALL OF THESE DATA (except the types_providers table) WERE GENERATED WITH GENERATEDATA.COM !
