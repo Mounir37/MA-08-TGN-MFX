@@ -158,7 +158,35 @@ INSERT INTO acquire([customers_id],[accessories_id]) VALUES(281,23),(282,14),(28
 INSERT INTO acquire([customers_id],[accessories_id]) VALUES(291,15),(292,35),(293,35),(294,34),(295,14),(296,50),(297,1),(298,27),(299,5),(300,9);
 
 --Insertion of foerign key in the table buy
+INSERT INTO buy([customers_id],[games_id]) VALUES(1,25),(2,38),(3,133),(4,93),(5,7),(6,45),(7,143),(8,NULL),(9,3),(10,46);
+INSERT INTO buy([customers_id],[games_id]) VALUES(11,77),(12,134),(13,35),(14,65),(15,123),(16,132),(17,114),(18,20),(19,119),(20,NULL);
+INSERT INTO buy([customers_id],[games_id]) VALUES(21,28),(22,18),(23,NULL),(24,75),(25,109),(26,73),(27,65),(28,NULL),(29,109),(30,113);
+INSERT INTO buy([customers_id],[games_id]) VALUES(31,17),(32,80),(33,76),(34,116),(35,20),(36,90),(37,75),(38,4),(39,40),(40,61);
+INSERT INTO buy([customers_id],[games_id]) VALUES(41,117),(42,47),(43,1),(44,149),(45,72),(46,129),(47,9),(48,17),(49,46),(50,38);
+INSERT INTO buy([customers_id],[games_id]) VALUES(51,NULL),(52,6),(53,131),(54,64),(55,16),(56,102),(57,48),(58,77),(59,NULL),(60,76);
+INSERT INTO buy([customers_id],[games_id]) VALUES(61,129),(62,84),(63,143),(64,26),(65,17),(66,39),(67,32),(68,19),(69,36),(70,41);
+INSERT INTO buy([customers_id],[games_id]) VALUES(71,98),(72,55),(73,NULL),(74,51),(75,3),(76,36),(77,115),(78,51),(79,37),(80,7);
+INSERT INTO buy([customers_id],[games_id]) VALUES(81,123),(82,94),(83,17),(84,10),(85,67),(86,117),(87,141),(88,44),(89,125),(90,26);
+INSERT INTO buy([customers_id],[games_id]) VALUES(91,137),(92,103),(93,119),(94,40),(95,35),(96,135),(97,50),(98,NULL),(99,133),(100,9);
+INSERT INTO buy([customers_id],[games_id]) VALUES(101,NULL),(102,116),(103,8),(104,67),(105,51),(106,43),(107,NULL),(108,123),(109,103),(110,4);
+INSERT INTO buy([customers_id],[games_id]) VALUES(111,41),(112,133),(113,149),(114,NULL),(115,61),(116,69),(117,93),(118,48),(119,28),(120,32);
+INSERT INTO buy([customers_id],[games_id]) VALUES(121,79),(122,145),(123,91),(124,67),(125,14),(126,39),(127,53),(128,82),(129,22),(130,NULL);
+INSERT INTO buy([customers_id],[games_id]) VALUES(131,80),(132,75),(133,4),(134,56),(135,NULL),(136,13),(137,113),(138,100),(139,92),(140,99);
+INSERT INTO buy([customers_id],[games_id]) VALUES(141,26),(142,5),(143,43),(144,72),(145,20),(146,78),(147,88),(148,70),(149,88),(150,NULL);
+INSERT INTO buy([customers_id],[games_id]) VALUES(151,65),(152,NULL),(153,129),(154,106),(155,104),(156,123),(157,35),(158,44),(159,13),(160,119);
+INSERT INTO buy([customers_id],[games_id]) VALUES(161,31),(162,101),(163,37),(164,28),(165,15),(166,39),(167,78),(168,8),(169,3),(170,122);
+INSERT INTO buy([customers_id],[games_id]) VALUES(171,145),(172,78),(173,145),(174,3),(175,126),(176,66),(177,101),(178,87),(179,17),(180,89);
+INSERT INTO buy([customers_id],[games_id]) VALUES(181,68),(182,126),(183,NULL),(184,74),(185,41),(186,NULL),(187,115),(188,140),(189,140),(190,96);
+INSERT INTO buy([customers_id],[games_id]) VALUES(191,77),(192,94),(193,95),(194,147),(195,109),(196,92),(197,11),(198,119),(199,14),(200,NULL);
+INSERT INTO buy([customers_id],[games_id]) VALUES(201,148),(202,NULL),(203,33),(204,62),(205,93),(206,130),(207,139),(208,24),(209,46),(210,NULL);
+INSERT INTO buy([customers_id],[games_id]) VALUES(211,32),(212,97),(213,27),(214,135),(215,132),(216,84),(217,115),(218,89),(219,118),(220,124);
+INSERT INTO buy([customers_id],[games_id]) VALUES(221,40),(222,127),(223,68),(224,NULL),(225,98),(226,78),(227,47),(228,93),(229,52),(230,51);
+INSERT INTO buy([customers_id],[games_id]) VALUES(231,121),(232,92),(233,70),(234,55),(235,49),(236,139),(237,60),(238,96),(239,93),(240,33);
+INSERT INTO buy([customers_id],[games_id]) VALUES(241,34),(242,NULL),(243,135),(244,130),(245,91),(246,35),(247,84),(248,17),(249,92),(250,89);
+INSERT INTO buy([customers_id],[games_id]) VALUES(251,150),(252,52),(253,12),(254,137),(255,21),(256,NULL),(257,135),(258,119),(259,NULL),(260,79);
+INSERT INTO buy([customers_id],[games_id]) VALUES(261,48),(262,102),(263,87),(264,66),(265,123),(266,117),(267,14),(268,103),(269,92),(270,113);
+INSERT INTO buy([customers_id],[games_id]) VALUES(271,13),(272,48),(273,33),(274,75),(275,80),(276,2),(277,38),(278,99),(279,NULL),(280,11);
+INSERT INTO buy([customers_id],[games_id]) VALUES(281,129),(282,36),(283,8),(284,79),(285,65),(286,139),(287,68),(288,24),(289,106),(290,18);
+INSERT INTO buy([customers_id],[games_id]) VALUES(291,32),(292,NULL),(293,5),(294,81),(295,139),(296,62),(297,5),(298,46),(299,97),(300,NULL);
 
-
---
 --ALL OF THESE DATA (except the types_providers table) WERE GENERATED WITH GENERATEDATA.COM !
