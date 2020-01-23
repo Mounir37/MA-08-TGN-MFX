@@ -190,8 +190,32 @@ INSERT INTO buy([customers_id],[games_id]) VALUES(281,129),(282,36),(283,8),(284
 INSERT INTO buy([customers_id],[games_id]) VALUES(291,32),(292,NULL),(293,5),(294,81),(295,139),(296,62),(297,5),(298,46),(299,97),(300,NULL);
 
 --Insertion of foreign key in the table need
+INSERT INTO need([games_id],[platforms_id]) VALUES(1,15),(2,23),(3,18),(4,24),(5,20),(6,9),(7,23),(8,20),(9,5),(10,2);
+INSERT INTO need([games_id],[platforms_id]) VALUES(11,19),(12,27),(13,23),(14,9),(15,25),(16,24),(17,6),(18,21),(19,20),(20,10);
+INSERT INTO need([games_id],[platforms_id]) VALUES(21,26),(22,8),(23,18),(24,10),(25,21),(26,25),(27,9),(28,6),(29,28),(30,24);
+INSERT INTO need([games_id],[platforms_id]) VALUES(31,22),(32,28),(33,5),(34,2),(35,4),(36,17),(37,27),(38,13),(39,18),(40,21);
+INSERT INTO need([games_id],[platforms_id]) VALUES(41,21),(42,7),(43,1),(44,5),(45,10),(46,17),(47,5),(48,4),(49,27),(50,9);
+INSERT INTO need([games_id],[platforms_id]) VALUES(51,4),(52,27),(53,4),(54,15),(55,16),(56,28),(57,14),(58,26),(59,12),(60,2);
+INSERT INTO need([games_id],[platforms_id]) VALUES(61,27),(62,27),(63,6),(64,14),(65,22),(66,21),(67,22),(68,1),(69,28),(70,28);
+INSERT INTO need([games_id],[platforms_id]) VALUES(71,28),(72,13),(73,8),(74,5),(75,25),(76,19),(77,1),(78,16),(79,27),(80,18);
+INSERT INTO need([games_id],[platforms_id]) VALUES(81,27),(82,8),(83,1),(84,23),(85,15),(86,20),(87,2),(88,23),(89,12),(90,7);
+INSERT INTO need([games_id],[platforms_id]) VALUES(91,13),(92,14),(93,27),(94,4),(95,22),(96,21),(97,24),(98,9),(99,24),(100,28);
+INSERT INTO need([games_id],[platforms_id]) VALUES(101,18),(102,4),(103,10),(104,26),(105,26),(106,12),(107,8),(108,3),(109,27),(110,7);
+INSERT INTO need([games_id],[platforms_id]) VALUES(111,16),(112,1),(113,13),(114,22),(115,7),(116,26),(117,23),(118,26),(119,23),(120,20);
+INSERT INTO need([games_id],[platforms_id]) VALUES(121,21),(122,4),(123,13),(124,8),(125,2),(126,8),(127,21),(128,6),(129,28),(130,20);
+INSERT INTO need([games_id],[platforms_id]) VALUES(131,22),(132,16),(133,27),(134,17),(135,2),(136,25),(137,17),(138,3),(139,27),(140,1);
+INSERT INTO need([games_id],[platforms_id]) VALUES(141,9),(142,11),(143,12),(144,12),(145,17),(146,18),(147,27),(148,7),(149,23),(150,25);
 
 --Insertion of foreign key in the table develop
-
+INSERT INTO develop([providers_id],[games_id]) VALUES(1,71),(2,71),(3,9),(4,147),(5,50),(6,21),(7,20),(8,120),(9,102),(10,19);
+INSERT INTO develop([providers_id],[games_id]) VALUES(11,81),(12,138),(13,121),(14,6),(15,122),(16,104),(17,39),(18,1),(19,66),(20,70);
+INSERT INTO develop([providers_id],[games_id]) VALUES(21,150),(22,41),(23,121),(24,130),(25,114),(26,5),(27,135),(28,83),(29,142),(30,58);
+INSERT INTO develop([providers_id],[games_id]) VALUES(31,132),(32,130),(33,92),(34,28),(35,61),(36,84),(37,129),(38,127),(39,14),(40,91);
+INSERT INTO develop([providers_id],[games_id]) VALUES(41,116),(42,64),(43,68),(44,77),(45,104),(46,52),(47,122),(48,32),(49,57),(50,78);
+INSERT INTO develop([providers_id],[games_id]) VALUES(51,11),(52,28),(53,120),(54,28),(55,43),(56,96),(57,61),(58,60),(59,127),(60,137);
+INSERT INTO develop([providers_id],[games_id]) VALUES(61,18),(62,34),(63,87),(64,121),(65,107),(66,96),(67,6),(68,86),(69,119),(70,44);
+INSERT INTO develop([providers_id],[games_id]) VALUES(71,41),(72,39),(73,137),(74,21),(75,87),(76,88),(77,140),(78,93),(79,13),(80,47);
+INSERT INTO develop([providers_id],[games_id]) VALUES(81,142),(82,28),(83,102),(84,16),(85,9),(86,77),(87,52),(88,138),(89,62),(90,77);
+INSERT INTO develop([providers_id],[games_id]) VALUES(91,125),(92,8),(93,67),(94,102),(95,54),(96,106),(97,62),(98,142),(99,121),(100,78);
 
 --ALL OF THESE DATA (except the types_providers table) WERE GENERATED WITH GENERATEDATA.COM !
