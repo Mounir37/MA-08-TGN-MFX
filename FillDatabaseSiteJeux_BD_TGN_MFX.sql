@@ -83,16 +83,16 @@ INSERT INTO orders([number],[Description],[address]) VALUES(4996151,'Nunc','P.O.
 INSERT INTO orders([number],[Description],[address]) VALUES(6460277,'eu, placerat eget, venenatis a, magna. Lorem','2924 Ornare Street'),(26723039,'iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus','Ap #704-7908 In Rd.'),(8127431,'libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet','220-1179 Vestibulum St.'),(9966,'facilisis lorem tristique aliquet.','Ap #960-345 Ipsum Rd.'),(14,'eu','P.O. Box 313, 6000 Fringilla St.'),(92706,'turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod mauris eu elit.','2493 Cursus St.'),(90389,'luctus ut, pellentesque eget, dictum placerat, augue. Sed','739-4945 Nulla. Avenue'),(981,'rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac','P.O. Box 582, 9859 Lectus Rd.'),(24557,'ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque','5654 Quisque St.'),(8918,'lorem vitae odio sagittis semper. Nam tempor diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est mauris,','755-550 Diam Street');
 
 --Insertion of 100 data in the table payments
-INSERT INTO payments([type]) VALUES('faucibus'),('dictum'),('Duis'),('rutrum'),('Proin'),('mi'),('vel'),('augue'),('tempus'),('tellus');
-INSERT INTO payments([type]) VALUES('quis'),('fringilla'),('lacus'),('mauris'),('ipsum'),('Sed'),('bibendum'),('vel'),('magnis'),('varius');
-INSERT INTO payments([type]) VALUES('Curabitur'),('volutpat'),('ante'),('eu'),('Mauris'),('egestas'),('arcu'),('id'),('sit'),('et');
-INSERT INTO payments([type]) VALUES('etout'),('Suspendisse'),('pede'),('metus'),('libero'),('Phasellus'),('facilisi'),('Phallos'),('molestie'),('amet');
-INSERT INTO payments([type]) VALUES('egesta.'),('porttitor'),('elito'),('adipiscing'),('rutrum'),('Mauris'),('viverr'),('felis'),('eu'),('eros');
-INSERT INTO payments([type]) VALUES('era'),('cursus'),('feugiat'),('habitant'),('Proin'),('enim'),('autre'),('libe'),('parturient'),('eu');
-INSERT INTO payments([type]) VALUES('ametpo'),('magma'),('duit'),('acou'),('lacusi'),('semper'),('semperm'),('necl'),('ped'),('sirt');
-INSERT INTO payments([type]) VALUES('sapie'),('nun'),('imperdiet'),('Maecena'),('dia'),('ame'),('elit'),('eli'),('metui'),('tincidunt');
-INSERT INTO payments([type]) VALUES('iaculis'),('consectetuer'),('ipsum'),('Nullam'),('justo'),('adipiscing'),('consequat'),('arcu'),('tincidunt'),('Integer');
-INSERT INTO payments([type]) VALUES('nulla'),('netus'),('dictum'),('sociis'),('malesuada'),('egestas'),('lacus'),('Nam'),('Proin'),('lorem');
+INSERT INTO payments([type],[customers_id]) VALUES('faucibus',2),('dictum',78),('Duis',52),('rutrum',123),('Proin',32),('mi',32),('vel',98),('augue',12),('tempus',122),('tellus',62);
+INSERT INTO payments([type],[customers_id]) VALUES('quis',300),('fringilla',34),('lacus',74),('mauris',194),('ipsum',234),('Sed',294),('bibendum',184),('vel',93),('magnis',91),('varius',100);
+INSERT INTO payments([type],[customers_id]) VALUES('Curabitur',122),('volutpat',222),('ante',111),('eu',99),('Mauris',90),('egestas',203),('arcu',69),('id',166),('sit',182),('et',54);
+INSERT INTO payments([type],[customers_id]) VALUES('etout',112),('Suspendisse',55),('pede',53),('metus',198),('libero',159),('Phasellus',84),('facilisi',49),('Phallos',164),('molestie',194),('amet',275);
+INSERT INTO payments([type],[customers_id]) VALUES('egesta.',184),('porttitor',79),('elito',46),('adipiscing',13),('rutrum',31),('Mauris',64),('viverr',78),('felis',178),('eu',40),('eros',54);
+INSERT INTO payments([type],[customers_id]) VALUES('era',81),('cursus',154),('feugiat',162),('habitant',201),('Proin',200),('enim',300),('autre',150),('libe',14),('parturient',74),('eu',94);
+INSERT INTO payments([type],[customers_id]) VALUES('ametpo'134),('magma',51),('duit',162),('acou',15),('lacusi',36),('semper',299),('semperm',296),('necl',235),('ped',61),('sirt',50);
+INSERT INTO payments([type],[customers_id]) VALUES('sapie',94),('nun',12),('imperdiet',23),('Maecena',34),('dia',45),('ame',56),('elit',67),('eli',78),('metui',89),('tincidunt',101);
+INSERT INTO payments([type],[customers_id]) VALUES('iaculis',112),('consectetuer',123),('ipsum',134),('Nullam',145),('justo',156),('adipiscing',167),('consequat',178),('arcu',189),('tincidunt',201),('Integer',212);
+INSERT INTO payments([type],[customers_id]) VALUES('nulla',223),('netus',234),('dictum',245),('sociis',256),('malesuada',267),('egestas',278),('lacus',289),('Nam',32),('Proin',86),('lorem',169);
 
 --Insertion of 100 data in the table providers
 INSERT INTO providers([name],[creationDate],[nbGames]) VALUES('Magnis LLC','Dec 14, 1990',88),('Commodo Ipsum Suspendisse PC','Oct 16, 1991',17),('Tellus Eu Augue Consulting','Apr 25, 2009',69),('Morbi Sit Amet Industries','Aug 12, 1999',13),('Risus Varius LLP','Nov 3, 1999',19),('Eget Mollis Consulting','Sep 2, 2004',13),('Id Consulting','Mar 7, 1993',1),('Orci Ut Sagittis Consulting','Apr 7, 2007',44),('Nascetur Ridiculus Limited','May 10, 1993',45),('Pharetra Felis Institute','May 7, 2005',4);
@@ -119,8 +119,8 @@ INSERT INTO platforms([name],[type]) VALUES('Borderland','rutrum'),('Systems','e
 INSERT INTO platforms([name],[type]) VALUES('Finale','diam.'),('Lava','vitae'),('Lavasoft','nonummy'),('Final','tristique'),('Finino','mattis'),('Yahee','lectus'),('Lavasoftware','Duis'),('Borlands','vulputate');
 
 --Insertion of 20 data in the table reductions
-INSERT INTO reductions([name],[pourcentage],[deadline]) VALUES('amet, faucibus',37,'Oct 19, 2019'),('Cras pellentesque.',20,'Nov 2, 2019'),('eu turpis.',50,'Oct 21, 2019'),('congue, elit',21,'Aug 15, 2020'),('Duis cursus,',23,'May 22, 2020'),('purus gravida',29,'Mar 10, 2020'),('tempor arcu.',36,'Aug 31, 2019'),('dolor. Donec',29,'Sep 24, 2019'),('blandit at,',47,'Jun 24, 2019'),('volutpat nunc',48,'Oct 7, 2020');
-INSERT INTO reductions([name],[pourcentage],[deadline]) VALUES('auctor quis,',21,'Feb 17, 2019'),('diam. Sed',32,'Feb 18, 2020'),('Suspendisse ac',26,'Apr 13, 2020'),('odio, auctor',33,'Mar 7, 2019'),('Mauris vestibulum,',38,'Jun 18, 2019'),('elementum purus,',50,'Mar 10, 2019'),('amet risus.',35,'Dec 17, 2019'),('risus odio,',21,'Mar 16, 2019'),('mi. Duis',46,'Dec 24, 2019'),('primis in',23,'Sep 7, 2019');
+INSERT INTO reductions([name],[pourcentage],[deadline],[customers_id]) VALUES('amet, faucibus',37,'Oct 19, 2019',1),('Cras pellentesque.',20,'Nov 2, 2019',4),('eu turpis.',50,'Oct 21, 2019',73),('congue, elit',21,'Aug 15, 2020',6),('Duis cursus,',23,'May 22, 2020',32),('purus gravida',29,'Mar 10, 2020',188),('tempor arcu.',36,'Aug 31, 2019',213),('dolor. Donec',29,'Sep 24, 2019',3),('blandit at,',47,'Jun 24, 2019',300),('volutpat nunc',48,'Oct 7, 2020',17);
+INSERT INTO reductions([name],[pourcentage],[deadline],[customers_id]) VALUES('auctor quis,',21,'Feb 17, 2019',222),('diam. Sed',32,'Feb 18, 2020',20),('Suspendisse ac',26,'Apr 13, 2020',19),('odio, auctor',33,'Mar 7, 2019',102),('Mauris vestibulum,',38,'Jun 18, 2019',1),('elementum purus,',50,'Mar 10, 2019',192),('amet risus.',35,'Dec 17, 2019',271),('risus odio,',21,'Mar 16, 2019',138),('mi. Duis',46,'Dec 24, 2019',62),('primis in',23,'Sep 7, 2019',77);
 
 --Insertion of 2 data in the table types_providers
 INSERT INTO types_providers([name]) VALUES('Développeur'),('Éditeur');
