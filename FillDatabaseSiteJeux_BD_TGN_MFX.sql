@@ -89,7 +89,7 @@ INSERT INTO payments([type],[customers_id]) VALUES('Curabitur',122),('volutpat',
 INSERT INTO payments([type],[customers_id]) VALUES('etout',112),('Suspendisse',55),('pede',53),('metus',198),('libero',159),('Phasellus',84),('facilisi',49),('Phallos',164),('molestie',194),('amet',275);
 INSERT INTO payments([type],[customers_id]) VALUES('egesta.',184),('porttitor',79),('elito',46),('adipiscing',13),('rutrum',31),('Mauris',64),('viverr',78),('felis',178),('eu',40),('eros',54);
 INSERT INTO payments([type],[customers_id]) VALUES('era',81),('cursus',154),('feugiat',162),('habitant',201),('Proin',200),('enim',300),('autre',150),('libe',14),('parturient',74),('eu',94);
-INSERT INTO payments([type],[customers_id]) VALUES('ametpo'134),('magma',51),('duit',162),('acou',15),('lacusi',36),('semper',299),('semperm',296),('necl',235),('ped',61),('sirt',50);
+INSERT INTO payments([type],[customers_id]) VALUES('ametpo',134),('magma',51),('duit',162),('acou',15),('lacusi',36),('semper',299),('semperm',296),('necl',235),('ped',61),('sirt',50);
 INSERT INTO payments([type],[customers_id]) VALUES('sapie',94),('nun',12),('imperdiet',23),('Maecena',34),('dia',45),('ame',56),('elit',67),('eli',78),('metui',89),('tincidunt',101);
 INSERT INTO payments([type],[customers_id]) VALUES('iaculis',112),('consectetuer',123),('ipsum',134),('Nullam',145),('justo',156),('adipiscing',167),('consequat',178),('arcu',189),('tincidunt',201),('Integer',212);
 INSERT INTO payments([type],[customers_id]) VALUES('nulla',223),('netus',234),('dictum',245),('sociis',256),('malesuada',267),('egestas',278),('lacus',289),('Nam',32),('Proin',86),('lorem',169);
@@ -188,5 +188,10 @@ INSERT INTO buy([customers_id],[games_id]) VALUES(261,48),(262,102),(263,87),(26
 INSERT INTO buy([customers_id],[games_id]) VALUES(271,13),(272,48),(273,33),(274,75),(275,80),(276,2),(277,38),(278,99),(279,NULL),(280,11);
 INSERT INTO buy([customers_id],[games_id]) VALUES(281,129),(282,36),(283,8),(284,79),(285,65),(286,139),(287,68),(288,24),(289,106),(290,18);
 INSERT INTO buy([customers_id],[games_id]) VALUES(291,32),(292,NULL),(293,5),(294,81),(295,139),(296,62),(297,5),(298,46),(299,97),(300,NULL);
+
+--Insertion of foreign key in the table need
+
+--Insertion of foreign key in the table develop
+
 
 --ALL OF THESE DATA (except the types_providers table) WERE GENERATED WITH GENERATEDATA.COM !
